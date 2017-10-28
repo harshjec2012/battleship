@@ -36,7 +36,7 @@ def print_board(s,board):
 			elif s == "c":
 				if board[i][j] == "*" or board[i][j] == "$":
 					print board[i][j],
-				else:
+				else: 
 					print " ",
 			
 			if j != 9:
